@@ -44,13 +44,14 @@ public class MainActivity extends AppCompatActivity {
 
         //bottomSheetBtn : 클릭시 showBottomSheetDialog() 띄우기
         Button bottomSheetBtn = (Button) findViewById(R.id.bottomSheetBtn);
+
+        //클릭시 showBottomSheetDialog()함수 실행
         bottomSheetBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 showBottomSheetDialog();
             }
         });
-
     }
 
     /** @brief showBottomSheetDialog
